@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A9A9A9;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+#container{
+    width: 1300px;
+    margin: 0px auto;
+    height: 600px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#container-header{
+    height: 150px;
+    background-color: #DC143C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+}
+
+#container-header h1{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+#container-body{
+    background-color: #F5F5F5;
+    height: 500px;
+    border-radius: 0 0 10px 10px;
+}
+#container-escolhas{
+    height: 350px;
+    display: flex;
+}
+.container-opcoes{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.opcoes img{
+    opacity: 0.4;
+    width: 150px;
+    height: 150px;
+    margin-inline: 10px;
+}
+
+.opcao-principal img{
+    opacity: 1;
+}
+
+#container-resultado{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#button{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button button{
+    border-radius: 4px;
+    border: 1px solid #DC143C;
+    padding: 10px 25px;
+    background-color: #FFFFFF;
+    color: #DC143C;
+}
+
+#button button:hover{
+    background-color: #DC143C;
+    color: #FFFFFF;
+}
+
+#resultado{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#resultado h3{
+    color:#DC143C;
+    font-weight: 500;
+}
